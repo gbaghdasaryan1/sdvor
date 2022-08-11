@@ -1,0 +1,245 @@
+header{
+    width: 100%;
+    /* height: 80px; */
+    padding: 20px 0;
+    margin: 0 auto;
+
+}
+.headerContainer{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 2px;
+}
+
+.headerContainer > div:nth-child(1) > img{
+    width: 174px;
+    height: 24px;
+}
+.headerContainer > div:nth-child(2){
+    display: flex;
+    align-items: flex-start;
+}
+.headerContainer > div:nth-child(3){
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerContainer > div:nth-child(3) > button{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.searchButton{
+    width: 90px;
+    height: 40px;
+    background-color: #171717;
+    border: none;
+    color: white;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+.searchField{
+    width: 30vw;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #E4E4E4;
+    padding-left: 10px;
+}
+
+@media(max-width: 1100px){
+    header{
+        width: 100%;
+        /* height: 80px; */
+        padding: 20px 0;
+        margin: 0 auto;
+    
+    }
+    .headerContainer{
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        grid-gap: 2px;
+    }
+    /* .headerContainer > div {
+        display: none;
+    }
+     */
+    .headerContainer > div:nth-child(1) > img{
+        width: 174px;
+        height: 24px;
+    }
+    .headerContainer > div:nth-child(2){
+        display: flex;
+        align-items: flex-start;
+    }
+    .headerContainer > div:nth-child(3){
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .headerContainer > div:nth-child(3) > button{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .searchButton{
+        width: 60px;
+        height: 40px;
+        background-color: #171717;
+        border: none;
+        color: white;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .searchField{
+        width: 30vw;
+        height: 40px;
+        outline: none;
+        border: none;
+        background-color: #E4E4E4;
+        padding-left: 10px;
+    }
+}
+
+@media(max-width: 700px){
+    header{
+        width: 100%;
+        /* height: 80px; */
+        padding: 20px 0;
+        margin: 0 auto;
+    
+    }
+    .headerContainer{
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        grid-gap: 2px;
+    }
+  
+    .headerContainer > div:nth-child(1) > img{
+        width: 100px;
+        height: 15px;
+    }
+    .headerContainer > div:nth-child(2){
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+    .headerContainer > div:nth-child(3){
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .headerContainer > div:nth-child(3) > button{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .searchButton{
+        width: 50px;
+        height: 40px;
+        background-color: #171717;
+        border: none;
+        color: white;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .searchField{
+        width: 100%;
+        height: 40px;
+        outline: none;
+        border: none;
+        background-color: #E4E4E4;
+        padding-left: 10px;
+    }
+}
+
+@media(max-width: 400px){
+    header{
+        width: 100%;
+        /* height: 80px; */
+        padding: 20px 0;
+        margin: 0 auto;
+    
+    }
+    .headerContainer{
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns:auto auto auto;
+        align-items: center;
+        grid-gap: 2px;
+    }
+    /* .headerContainer > div {
+        display: none;
+    } */
+
+    .headerContainer > div:nth-child(1) > img{
+        width: 70px;
+        height: 12px;
+    }
+    .headerContainer > div:nth-child(2){
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+    .headerContainer > div:nth-child(3){
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .headerContainer > div:nth-child(3) > button{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .searchButton{
+        width: 50px;
+        height: 40px;
+        background-color: #171717;
+        border: none;
+        color: white;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .searchField{
+        width: 100%;
+        height: 40px;
+        outline: none;
+        border: none;
+        background-color: #E4E4E4;
+        padding-left: 10px;
+    }
+}

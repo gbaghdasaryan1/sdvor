@@ -1,0 +1,68 @@
+
+.slick-track{
+    display: flex; 
+}
+
+.slider{
+    position: relative;
+}
+.slick-slide{
+    margin: 0 5px;
+}
+
+
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+    
+}
+
+.slick-prev{
+    left: 0;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+
+}
+.slick-next{
+    right: 0;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.slick-prev::before{
+    content: "<";
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.459);
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slick-next::before{
+    content: ">";
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.329);
+
+    
+}
+
+
+.slick-next{
+}

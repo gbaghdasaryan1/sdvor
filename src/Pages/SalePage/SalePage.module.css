@@ -1,0 +1,784 @@
+.SalePage{
+    margin-top: 50px;
+}
+.SalePageHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SalePageHeader > p{
+    font-weight: 500;
+    font-size: 40px;
+    /* line-height: 48px; */
+    color: #171717;
+    /* margin-bottom: 20px;s */
+
+}
+.SalePageHeader > div{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.SalePageHeader > div > div{
+    position:absolute;
+    width: 160px;
+    height: 150px;
+    right: 0;
+    top: 35px;
+}
+.SalePageHeader > div > span{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #171717;
+}
+.SalePageHeader > div > button{
+    width: 160px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+
+}
+
+.Content{
+    width: 100%;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+    justify-content: space-between;
+}
+
+ aside{
+    width: 250px;
+    overflow-y: scroll;
+}
+
+
+
+.FilterByCategoryOpen{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.FilterByCategoryOpen span{
+    font-size: 14px;
+    line-height: 130%;
+    color: #171717;
+    margin: 3px 0;
+    cursor: pointer;
+
+}
+ aside > div:nth-child(1) > p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #171717;
+
+}
+ aside > div:nth-child(1) > button{
+    width: 124px;
+    height: 28px;
+    background-color: #66C05D;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 8px;
+    cursor: pointer;
+
+}
+ aside > div:nth-child(2){
+    border-top: 1px solid grey;
+    /* padding-top: 20px; */
+    margin-top: 20px;
+}
+
+ aside > div:nth-child(3 ){
+    border-top: 1px solid grey;
+    /* padding-top: 20px; */
+    margin-top: 20px;
+}
+ aside > div:nth-child(2) > p{
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #171717;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+ aside > div:nth-child(3) > p{
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #171717;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+aside > div:nth-child(3) label{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 130%;
+    color: #171717;
+}
+
+ main{
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    position: relative;
+    padding-bottom: 150px;
+
+}
+
+.MobileFilterBtn{
+    width: 100px;
+    height: 35px;
+    background-color: #66C05D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 10px 0;
+}
+.MobileFilterBtn:hover{
+
+    background-color: #65c05db4;
+
+}
+
+.Pagination{
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media(max-width: 1165px){
+    .SalePage{
+        margin-top: 50px;
+    }
+    .SalePageHeader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .SalePageHeader > p{
+
+        font-weight: 500;
+        font-size: 25px;
+        color: #171717;
+        /* margin-bottom: 20px; */
+    
+    }
+    .SalePageHeader > div{
+        display: flex;
+        align-items: center;
+        /* position: relative; */
+    }
+    
+    .SalePageHeader > div > div{
+        position:absolute;
+        width: 160px;
+        height: 150px;
+        right: 0;
+        top: 35px;
+    }
+    .SalePageHeader > div > span{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #171717;
+    }
+    .SalePageHeader > div > button{
+        width: 160px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        cursor: pointer;
+    
+    }
+    
+    .Content{
+        width: 100%;
+        min-height: 500px;
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-gap: 20px;
+        justify-content: space-between;
+    }
+    
+  aside{
+        width: 100%;
+        overflow-y: unset;
+        padding: 5px;
+    }
+    
+    
+    
+    .FilterByCategoryOpen{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .FilterByCategoryOpen span{
+        font-size: 14px;
+        line-height: 130%;
+        color: #171717;
+        margin: 3px 0;
+        cursor: pointer;
+    
+    }
+    
+aside > div:nth-child(1) > p{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #171717;
+       
+    
+    }
+ aside > div:nth-child(1) > button{
+        width: 124px;
+        height: 28px;
+        background-color: #66C05D;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 8px;
+        cursor: pointer;
+    
+    }
+aside > div:nth-child(2){
+        border-top: 1px solid grey;
+        /* padding-top: 20px; */
+        margin-top: 20px;
+    }
+    
+ aside > div:nth-child(3 ){
+        border-top: 1px solid grey;
+        /* padding-top: 20px; */
+        margin-top: 20px;
+    }
+ aside > div:nth-child(2) > p{
+        width: 100%;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #171717;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+ aside > div:nth-child(3) > p{
+        width: 100%;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #171717;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+ aside > div:nth-child(3) label{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 130%;
+        color: #171717;
+    }
+  
+    .Content > main{
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: auto auto auto;
+        grid-gap: 5px;
+    }
+    
+}
+@media(max-width: 600px){
+    .SalePage{
+        margin-top: 50px;
+    }
+    .SalePageHeader{
+        display: flex;
+    
+        justify-content: space-between;
+        align-items: center;
+    }
+    .SalePageHeader > p{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 48px;
+        color: #171717;
+        /* margin-bottom: 20px; */
+    
+    }
+    .SalePageHeader > div{
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    
+    .SalePageHeader > div > div{
+        position:absolute;
+        width: 160px;
+        height: 150px;
+        right: 0;
+        top: 35px;
+    }
+    .SalePageHeader > div > span{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #171717;
+    }
+    .SalePageHeader > div > button{
+        width: 160px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        cursor: pointer;
+    
+    }
+    
+    .Content{
+        width: 100%;
+        min-height: 500px;
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-gap: 20px;
+        justify-content: space-between;
+    }
+    
+    .Content > aside{
+        width: 100%;
+        overflow-y: scroll;
+    }
+    
+    
+    
+    .FilterByCategoryOpen{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .FilterByCategoryOpen span{
+        font-size: 14px;
+        line-height: 130%;
+        color: #171717;
+        margin: 3px 0;
+        cursor: pointer;
+    
+    }
+    
+    .Content > aside > div:nth-child(1) > p{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #171717;
+    
+    }
+    .Content > aside > div:nth-child(1) > button{
+        width: 124px;
+        height: 28px;
+        background-color: #66C05D;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 8px;
+        cursor: pointer;
+    
+    }
+    .Content > aside > div:nth-child(2){
+        border-top: 1px solid grey;
+        /* padding-top: 20px; */
+        margin-top: 20px;
+    }
+    
+    .Content > aside > div:nth-child(3 ){
+        border-top: 1px solid grey;
+        /* padding-top: 20px; */
+        margin-top: 20px;
+    }
+    .Content > aside > div:nth-child(2) > p{
+        width: 100%;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #171717;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .Content > aside > div:nth-child(3) > p{
+        width: 100%;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #171717;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    .Content > aside > div:nth-child(3) label{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 130%;
+        color: #171717;
+    }
+    .Content > aside {
+        display: none  ;
+    }
+    .Content > main{
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: auto auto ;
+        grid-gap: 5px;
+    }
+    
+}
+
+@media(max-width: 450px){
+    .SalePage{
+        margin-top: 50px;
+    }
+    .SalePageHeader{
+        display: flex;
+
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .SalePageHeader > p{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 48px;
+        color: #171717;
+        /* margin-bottom: 20px; */
+    
+    }
+    .SalePageHeader > div{
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    
+    .SalePageHeader > div > div{
+        position:absolute;
+        width: 160px;
+        height: 150px;
+        right: 0;
+        top: 35px;
+    }
+    .SalePageHeader > div > span{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #171717;
+    }
+    .SalePageHeader > div > button{
+        width: 160px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        cursor: pointer;
+    
+    }
+    
+    .Content{
+        width: 100%;
+        min-height: 500px;
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-gap: 20px;
+        justify-content: space-between;
+    }
+    
+    .Content > aside{
+        width: 100%;
+        overflow-y: scroll;
+    }
+    
+    
+    
+    .FilterByCategoryOpen{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .FilterByCategoryOpen span{
+        font-size: 14px;
+        line-height: 130%;
+        color: #171717;
+        margin: 3px 0;
+        cursor: pointer;
+    
+    }
+    
+    .Content > aside > div:nth-child(1) > p{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #171717;
+    
+    }
+    .Content > aside > div:nth-child(1) > button{
+        width: 124px;
+        height: 28px;
+        background-color: #66C05D;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 8px;
+        cursor: pointer;
+    
+    }
+    .Content > aside > div:nth-child(2){
+        border-top: 1px solid grey;
+        /* padding-top: 20px; */
+        margin-top: 20px;
+    }
+    
+    .Content > aside > div:nth-child(3 ){
+        border-top: 1px solid grey;
+        /* padding-top: 20px; */
+        margin-top: 20px;
+    }
+    .Content > aside > div:nth-child(2) > p{
+        width: 100%;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #171717;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .Content > aside > div:nth-child(3) > p{
+        width: 100%;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #171717;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    .Content > aside > div:nth-child(3) label{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 130%;
+        color: #171717;
+    }
+    .Content > aside {
+        display: none  ;
+    }
+    .Content > main{
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: auto auto ;
+        grid-gap: 5px;
+    }
+    
+}
+@media(max-width: 450px){
+    .SalePage{
+        margin-top: 50px;
+    }
+    .SalePageHeader{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .SalePageHeader > p{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 48px;
+        color: #171717;
+        /* margin-bottom: 20px; */
+    
+    }
+    .SalePageHeader > div{
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    
+    .SalePageHeader > div > div{
+        position:absolute;
+        width: 160px;
+        height: 150px;
+        right: 0;
+        top: 35px;
+    }
+    .SalePageHeader > div > span{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #171717;
+    }
+    .SalePageHeader > div > button{
+        width: 160px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        cursor: pointer;
+    
+    }
+    
+    .Content{
+        width: 100%;
+        min-height: 500px;
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-gap: 20px;
+        justify-content: space-between;
+    }
+    
+    .Content > aside{
+        width: 100%;
+        overflow-y: scroll;
+    }
+    
+    
+    
+    .FilterByCategoryOpen{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .FilterByCategoryOpen span{
+        font-size: 14px;
+        line-height: 130%;
+        color: #171717;
+        margin: 3px 0;
+        cursor: pointer;
+    
+    }
+    
+    .Content > aside > div:nth-child(1) > p{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #171717;
+    
+    }
+    .Content > aside > div:nth-child(1) > button{
+        width: 124px;
+        height: 28px;
+        background-color: #66C05D;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 8px;
+        cursor: pointer;
+    
+    }
+    .Content > aside > div:nth-child(2){
+        border-top: 1px solid grey;
+        /* padding-top: 20px; */
+        margin-top: 20px;
+    }
+    
+    .Content > aside > div:nth-child(3 ){
+        border-top: 1px solid grey;
+        /* padding-top: 20px; */
+        margin-top: 20px;
+    }
+    .Content > aside > div:nth-child(2) > p{
+        width: 100%;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #171717;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .Content > aside > div:nth-child(3) > p{
+        width: 100%;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #171717;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    .Content > aside > div:nth-child(3) label{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 130%;
+        color: #171717;
+    }
+    .Content > aside {
+        display: none  ;
+    }
+    .Content > main{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto  ;
+        grid-gap: 5px;
+    }
+    
+}

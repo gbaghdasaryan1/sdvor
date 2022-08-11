@@ -1,0 +1,220 @@
+nav {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+}
+
+nav>div {
+    display: flex;
+}
+
+nav>div>ul {
+
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav>div>ul>li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.LiDrop {
+    width: 150px;
+    padding: 8px 5px;
+    position: absolute;
+    top: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 100;
+
+}
+
+.LiDrop>p {
+    margin-top: 5px;
+}
+
+nav>div>ul>li>button {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #171717;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.Catalog {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #66C05D;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding: 8px;
+}
+
+.Catalog:hover {
+    background: #65c05db2;
+}
+
+@media(max-width: 1000px) {
+    nav {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto 2fr;
+    }
+
+    nav>div:nth-child(3) {
+        display: none;
+    }
+
+    nav>div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav>div>ul {
+
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    nav>div>ul>li {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        position: relative;
+
+    }
+
+    .LiDrop {
+        width: 100px;
+        position: absolute;
+        top: 30px;
+    }
+
+    nav>div>ul>li>button {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+        color: #171717;
+        background-color: inherit;
+        border: none;
+        cursor: pointer;
+    }
+
+    .Catalog {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #66C05D;
+        border: none;
+        color: white;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .Catalog:hover {
+        background: #65c05db2;
+    }
+}
+
+@media(max-width: 400px) {
+    nav {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0.5fr auto;
+    }
+
+    nav>div:nth-child(3) {
+        display: block;
+    }
+
+    nav>div:nth-child(2) {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+    }
+
+    nav>div ul {
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav>div>ul>li {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        position: relative;
+
+    }
+
+    .LiDrop {
+        width: 100px;
+        position: absolute;
+        top: 30px;
+    }
+
+    nav>div>ul>li>button {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+        color: #171717;
+        background-color: inherit;
+        border: none;
+        cursor: pointer;
+    }
+
+    .Catalog {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        border: none;
+        color: #66C05D;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.2s;
+        margin-bottom: 5px;
+    }
+
+    .Catalog:hover {
+        background: none;
+    }
+
+    .Catalog::after {
+        content: "";
+    }
+}

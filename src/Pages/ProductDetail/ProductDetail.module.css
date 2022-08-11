@@ -1,0 +1,545 @@
+.ProductDetail {
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.ProductImage {
+    position: relative;
+}
+
+.ProductImage>i {
+    position: absolute;
+    bottom: 6px;
+    right: 13px;
+    color: #66C05D;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.ProductImage>img {
+    width: 390px;
+    height: auto;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    position: relative;
+}
+
+.Details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.Details>div {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.Details>div>p {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    text-align: center;
+
+}
+
+.Code {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Code>p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #767676;
+}
+
+.Code>p>span {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.BuyBlock {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.BuyBlock>button {
+    width: 125px;
+    height: 35px;
+    background: #66C05D;
+    cursor: pointer;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.BuyBlock>input {
+    width: 46px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid rgba(102, 192, 93, 0.52);
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+    outline: none;
+    text-align: center;
+    font-size: 17px;
+
+}
+
+.Price {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.02em;
+    color: #66C05D;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Hr {
+    width: 100%;
+    margin-top: 25px;
+    border: 1px solid #000000;
+}
+
+.Description {
+    font-size: 17px;
+    line-height: 20px;
+    color: #767676;
+    margin-top: 20px;
+
+}
+
+.Reviews {
+    width: 600px;
+    border: 1px solid #E4E4E4;
+    padding: 5px;
+
+}
+
+.Reviews>p {
+    width: 500px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #767676;
+}
+
+.Reviews>ul {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.Reviews>ul>li {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #767676;
+    list-style: circle;
+
+}
+
+.Reviews>span {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.RevBtn {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #66C05D;
+    background-color: inherit;
+    border: none;
+    padding: 5px;
+}
+
+.RevBtnDisable {
+    background: #C4C4C4;
+    border: 1px solid #767676;
+    box-sizing: border-box;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #767676;
+    padding: 5px;
+
+}
+
+@media(max-width: 1000px) {
+    .ProductDetail {
+        width: 100%;
+        /* min-height: 50vh; */
+        margin-top: 100px;
+
+    }
+
+    section {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+
+    .ProductImage {
+        position: relative;
+    }
+
+    .ProductImage>i {
+        position: absolute;
+        bottom: 6px;
+        right: 13px;
+        color: #66C05D;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .ProductImage>img {
+        width: 320px;
+        height: 100%;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        position: relative;
+    }
+
+    .Details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .Details>div>p {
+        font-family: 'Work Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 23px;
+        letter-spacing: -0.02em;
+        color: #000000;
+        text-align: center;
+
+    }
+
+    .Code {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .Code>p {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        color: #767676;
+    }
+
+    .Code>p>span {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .BuyBlock {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .BuyBlock>button {
+        width: 125px;
+        height: 35px;
+        background: #66C05D;
+        cursor: pointer;
+        color: white;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+        margin-right: 20px;
+    }
+
+    .BuyBlock>input {
+        width: 46px;
+        height: 35px;
+        background: #FFFFFF;
+        border: 1px solid rgba(102, 192, 93, 0.52);
+        box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+        outline: none;
+        text-align: center;
+        font-size: 17px;
+
+    }
+
+    .Price {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: -0.02em;
+        color: #66C05D;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .Hr {
+        width: 100%;
+        margin-top: 15px;
+        border: 1px solid #000000;
+    }
+
+    .Description {
+        font-size: 15px;
+        line-height: 20px;
+        color: #767676;
+        margin-top: 10px;
+
+    }
+
+}
+
+
+@media(max-width: 800px) {
+    .ProductDetail {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    section {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .ProductImage {
+        position: relative;
+    }
+
+    .ProductImage>i {
+        position: absolute;
+        bottom: 6px;
+        right: 13px;
+        color: #66C05D;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .ProductImage>img {
+        width: 320px;
+        height: 100%;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        position: relative;
+    }
+
+    .Details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .Details>div>p {
+        font-family: 'Work Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 23px;
+        letter-spacing: -0.02em;
+        color: #000000;
+        text-align: center;
+
+    }
+
+    .Code {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .Code>p {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        color: #767676;
+    }
+
+    .Code>p>span {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        color: #000000;
+    }
+
+    .BuyBlock {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .BuyBlock>button {
+        width: 125px;
+        height: 35px;
+        background: #66C05D;
+        cursor: pointer;
+        color: white;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+        margin-right: 20px;
+    }
+
+    .BuyBlock>input {
+        width: 46px;
+        height: 35px;
+        background: #FFFFFF;
+        border: 1px solid rgba(102, 192, 93, 0.52);
+        box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+        outline: none;
+        text-align: center;
+        font-size: 17px;
+
+    }
+
+    .Price {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: -0.02em;
+        color: #66C05D;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .Hr {
+        width: 100%;
+        margin-top: 15px;
+        border: 1px solid #000000;
+    }
+
+    .Description {
+        font-size: 15px;
+        line-height: 20px;
+        color: #767676;
+        margin-top: 10px;
+
+    }
+
+    .Reviews {
+        width: 100%;
+        border: 1px solid #E4E4E4;
+        padding: 5px;
+
+    }
+
+    .Reviews>p {
+        width: 90%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 24px;
+        color: #767676;
+    }
+
+    .Reviews>ul {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .Reviews>ul>li {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 24px;
+        color: #767676;
+        list-style: circle;
+        margin-left: 20px;
+
+    }
+
+    .Reviews>span {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .RevBtn {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: -0.02em;
+        color: #66C05D;
+        background-color: inherit;
+        border: none;
+        padding: 5px;
+    }
+
+    .RevBtnDisable {
+        background: #C4C4C4;
+        border: 1px solid #767676;
+        box-sizing: border-box;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #767676;
+        padding: 5px;
+
+    }
+
+}

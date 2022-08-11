@@ -1,0 +1,79 @@
+.SimilarProductsItem{
+    width: 175px;
+    height: 250px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px ;
+}
+
+.SimilarProductsItem > img{
+    margin: 0 auto;
+}
+
+.SimilarProductsItem > span{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 10px;
+    color: #9A9A9A;
+    margin-top: 5px;
+    
+}
+
+.SimilarProductsItem > p{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: #171717;
+    margin-top: 5px;
+
+}
+
+@media(max-width: 1000px){
+    .SimilarProductsItem{
+        width: 175px;
+        height: 250px;
+        background: #FFFFFF;
+        border: 1px solid #DADADA;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 10px ;
+    }
+    
+    .SimilarProductsItem > img{
+        margin: 0 auto;
+    }
+    
+    .SimilarProductsItem > span{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 10px;
+        color: #9A9A9A;
+        margin-top: 5px;
+        
+    }
+    
+    .SimilarProductsItem > p{
+        font-family: 'Work Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: -0.02em;
+        color: #171717;
+        margin-top: 5px;
+    
+    }
+}

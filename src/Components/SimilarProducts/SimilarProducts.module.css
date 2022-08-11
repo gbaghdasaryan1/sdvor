@@ -1,0 +1,36 @@
+.SimilarProducts{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.SimilarProducts > h2{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.SimilarProductsItems{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+@media(max-width: 800px){
+    .SimilarProducts{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .SimilarProducts > h2{
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .SimilarProductsItems{
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+    }
+    
+}

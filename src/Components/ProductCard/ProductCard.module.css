@@ -1,0 +1,196 @@
+.ProductCard{
+    max-width: 270px;
+    min-width: 200px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+}
+.ProductCard > span{
+    font-size: 14px;
+    line-height: 17px;
+    color: #9A9A9A;
+}
+
+.ProductCard > p{
+    font-size: 16px;
+    line-height: 130%;
+    color: #171717;
+    margin-top: 7px;
+}
+
+.KnowPrice{
+    width: 145px;
+    height: 40px;
+    font-size: 17px;
+    line-height: 20px;
+    color: #171717;
+    background-color: inherit;
+    border: none;
+    margin: 16px 0px;
+    text-align: start;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+.AddToCart{
+    width: 145px;
+    height: 40px;
+    border: 1px solid #66C05D;
+    background-color: inherit;
+    box-sizing: border-box;
+    padding: 9px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.Buy{
+    width: 145px;
+    height: 40px;
+    color: white;
+    background-color: #66C05D;
+    border: none;
+    /* background-color: inherit; */
+    box-sizing: border-box;
+    padding: 9px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
+.AddToCart:hover{
+    color: #FFFFFF;
+    background-color: #66C05D;
+}
+.Buy:hover{
+    color: #FFFFFF;
+    background-color: #65c05dcc;
+}
+
+.Remove{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+@media(max-width: 1165px){
+    .ProductCard{
+        max-width: 270px;
+        min-width: 150px;
+        background: #FFFFFF;
+        border: 1px solid #DADADA;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .ProductCard > span{
+        font-size: 12px;
+        line-height: 17px;
+        color: #9A9A9A;
+    }
+    
+    .ProductCard > p{
+        font-size: 14px;
+        line-height: 130%;
+        color: #171717;
+        margin-top: 7px;
+    }
+    
+    .KnowPrice{
+        width: 105px;
+        height: 40px;
+        font-size: 15px;
+        line-height: 20px;
+        color: #171717;
+        background-color: inherit;
+        border: none;
+        margin: 16px 0px;
+        text-align: start;
+    
+    }
+    
+    .AddToCart{
+        width: 105px;
+        height: 40px;
+        border: 1px solid #66C05D;
+        background-color: inherit;
+        box-sizing: border-box;
+        padding: 9px;
+        cursor: pointer;
+    }
+    .AddToCart:hover{
+        color: #FFFFFF;
+        background-color: #66C05D;
+    }
+    
+}
+
+@media(max-width: 550px){
+    .ProductCard{
+        max-width: 270px;
+        min-width: 150px;
+        background: #FFFFFF;
+        border: 1px solid #DADADA;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .ProductCard > span{
+        font-size: 11px;
+        line-height: 17px;
+        color: #9A9A9A;
+    }
+    
+    .ProductCard > p{
+        font-size: 12px;
+        line-height: 130%;
+        color: #171717;
+        margin-top: 7px;
+    }
+    
+    .KnowPrice{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 20px;
+        color: #171717;
+        background-color: inherit;
+        border: none;
+        margin: 16px 0px;
+        text-align: center;
+    
+    }
+    
+    .AddToCart{
+        width: 100px;
+        height: 40px;
+        border: 1px solid #66C05D;
+        background-color: inherit;
+        box-sizing: border-box;
+        padding: 9px;
+        cursor: pointer;
+        font-size: 12px;
+
+    }
+    .AddToCart:hover{
+        color: #FFFFFF;
+        background-color: #66C05D;
+    }
+    
+}

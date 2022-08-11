@@ -1,0 +1,119 @@
+.NewYear{
+    width: 100%;
+    /* height: 300px; */
+    margin-top: 60px;
+}
+.NewYear > p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.NewYearContent{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    grid-gap: 20px;
+}
+.NewYear > div:last-child{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.NewYear > div:last-child > a{
+    font-size: 17px;
+    line-height: 20px;
+    color: #171717;
+    margin-top: 30px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.Catalog{
+    border-bottom: 1px solid;
+    font-size: 17px;
+    line-height: 20px;
+    color: #171717;
+    cursor: pointer;
+}
+
+@media(max-width: 1165px){
+    .NewYear{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .NewYear > p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 31px;
+        color: #000000;
+    }
+    
+    .NewYearContent{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        justify-content: space-between;
+        grid-gap: 20px;
+    
+    }
+}
+
+
+@media(max-width: 550px){
+    .NewYear{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .NewYear > p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 31px;
+        color: #000000;
+    }
+    
+    .NewYearContent{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        grid-gap: 10px;
+    
+    }
+}
+
+@media(max-width: 350px){
+    .NewYear{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .NewYear > p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 31px;
+        color: #000000;
+    }
+    
+    .NewYearContent{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        grid-gap: 10px;
+    
+    }
+}

@@ -1,0 +1,102 @@
+.VideoBlock{
+    width: 100%;
+}
+
+.VideoBlock p{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.Video{
+    width: 100%;
+    height: 480px;
+}
+
+.Video > iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.Description{
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.Description > span{
+    font-weight: 500;
+font-size: 34px;
+line-height: 41px;
+
+color: #000000;
+}
+
+
+@media(max-width: 1200px){
+    
+    .VideoBlock p{
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+        color: #000000;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    
+    .Description{
+        width: 100%;
+        margin: 0 auto; 
+    }
+    
+    .Description > span{
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 41px;
+        color: #000000;
+    }
+    
+}
+
+@media(max-width: 900px){
+
+
+    .Video{
+        width: 100%;
+        height: 400px;
+    }
+
+    
+}
+
+@media(max-width: 500px){
+    
+    .VideoBlock p{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: unset;
+        letter-spacing: -0.02em;
+        color: #000000;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    
+    .Description{
+        width: 100%;
+        margin: 0 auto; 
+    }
+    
+    .Description > span{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: unset;
+        text-align: center;
+        color: #000000;
+    }
+}

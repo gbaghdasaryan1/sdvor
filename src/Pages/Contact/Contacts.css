@@ -1,0 +1,126 @@
+.Contacts {
+    margin-top: 20px;
+}
+
+.Contacts>h2 {
+    border-bottom: 2px solid #66c05d;
+    padding-bottom: 10px;
+}
+
+.Contacts-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+
+}
+
+.Contacts-header>div {
+    width: 30%;
+    display: flex;
+}
+
+
+.whatsapp {
+    width: 20px;
+}
+
+.Contacts-content {
+    margin-top: 20px;
+
+}
+
+.Contacts-content>h3 {
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.Contacts-content>h3>span {
+    color: tomato;
+}
+
+.Contacts-content>div {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.Contacts-content>div>img {
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+
+@media(max-width: 1000px) {
+    .Contacts-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .whatsapp {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+
+}
+
+@media(max-width: 1000px) {
+    .Contacts {
+        margin-top: 20px;
+    }
+
+    .Contacts>h2 {
+        border-bottom: 2px solid #66c05d;
+        padding-bottom: 10px;
+    }
+
+    .Contacts-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 15px;
+
+    }
+
+    .Contacts-header>div {
+        width: 100%;
+        display: flex;
+        margin: 10px 0;
+    }
+
+
+    .whatsapp {
+        width: 20px;
+    }
+
+    .Contacts-content {
+        margin-top: 20px;
+
+    }
+
+    .Contacts-content>h3 {
+        font-size: 17px;
+        text-align: center;
+
+    }
+
+    .Contacts-content>h3>span {
+        color: tomato;
+    }
+
+    .Contacts-content>div {
+        display: flex;
+        gap: 5px;
+        justify-content: space-between;
+    }
+
+    .Contacts-content>div>img {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+
+}

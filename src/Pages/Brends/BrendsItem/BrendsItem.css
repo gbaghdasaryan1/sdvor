@@ -1,0 +1,49 @@
+.BrendsItem {
+    width: 225px;
+    height: 225px;
+    border: 1px solid rgba(128, 128, 128, 0.404);
+
+    display: flex;
+    gap: 1px;
+    margin-top: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+.BrendsItem>img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.BrendsItem>p {
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.404);
+}
+
+
+@media(max-width: 600px) {
+    .BrendsItem {
+        width: 160px;
+        height: 160px;
+        border: 1px solid rgba(128, 128, 128, 0.404);
+
+        display: flex;
+        gap: 1px;
+        margin-top: 5px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        background-position: center 30%;
+        background-repeat: no-repeat;
+        background-size: 65%;
+    }
+
+}

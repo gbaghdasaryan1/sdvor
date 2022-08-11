@@ -1,0 +1,71 @@
+.Basket > h1{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.Basket > h1 > button{
+    margin-right: 50px;
+        width: 145px;
+    color: white;
+    background-color: #66C05D;
+    border: none;
+    box-sizing: border-box;
+    padding: 9px;
+    cursor: pointer;
+    align-items: center;
+    transition: 0.2s;
+}
+.Basket > h1 > span{
+    position: absolute;
+    right: 200px;
+}
+
+.BasketProducts{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    position: relative;
+    padding-bottom: 150px;
+}
+
+@media(max-width: 600px){
+
+    .Basket > h1{
+    display: flex;
+    font-size: 22px;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.Basket > h1 > button{
+    margin-right: 50px;
+    margin-top: 20px;
+        width: 145px;
+    color: white;
+    background-color: #66C05D;
+    border: none;
+    box-sizing: border-box;
+    padding: 9px;
+    cursor: pointer;
+    align-items: center;
+    transition: 0.2s;
+}
+.Basket > h1 > span{
+    position: absolute;
+    right: 0;
+}
+
+.BasketProducts{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    position: relative;
+    padding-bottom: 150px;
+}
+}
